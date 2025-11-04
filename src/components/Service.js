@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Service = ({id, icon, title, text }) => {
+const Service = ({service}) => {
+  const {id, icon, title, text} = service;
   return (
     <article key={id} className="service">
         <span className="service-icon"><i className={icon}></i></span>

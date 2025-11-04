@@ -7,8 +7,9 @@ const Services = () => {
 
   const serviceList = servicesData.map((service) => {
     const { id } = service
+
     return (
-      <Service key={id} props={service} />
+      <Service key={service.id} service={service} />
     )
   })
 
