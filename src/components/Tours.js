@@ -4,11 +4,8 @@ import { toursData } from './data'
 import TourComponent from './TourComponent'
 
 const Tours = () => {
-
-
-
 const toursCards = toursData.map ((tour) => {
-   const { id, image, date, title, info, location, duration, cost } = tour
+   const { id } = tour
 
     return (
         <TourComponent key={id} props={tour} />      

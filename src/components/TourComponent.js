@@ -1,5 +1,5 @@
 import React from 'react'
-import {Tours} from './Tours' 
+//import {Tours} from './Tours' 
 
 const TourComponent = ({props}) => {
 const {id, image, date, title, info, location, duration, cost} = props;
