@@ -9,7 +9,7 @@ const Services = () => {
     const { id } = service
 
     return (
-      <Service key={service.id} service={service} />
+      <Service key={id} service={service} />
     )
   })
 
